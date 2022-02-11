@@ -1,0 +1,46 @@
+.register-h2 {
+  margin-bottom: 5rem !important;
+}
+
+.container-register {
+  max-width: 90rem;
+}
+
+.cta-register {
+  display: flex;
+}
+
+.cta-reg {
+  margin-top: 2rem;
+}
+
+.cta-register {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.cta-register:nth-child(3) {
+  grid-column: 1 / span 2;
+}
+
+.cta-register:nth-child(3) input {
+  width: 90% !important;
+}
+
+.cta-register:last-child {
+  align-content: end;
+  justify-content: end;
+}
+
+.h3-register {
+  font-size: 2.4rem;
+  padding-bottom: 1.2rem;
+}
+.line{
+    width: 180%;
+    height: 1px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 14px;
+}

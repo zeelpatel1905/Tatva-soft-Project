@@ -1,0 +1,26 @@
+
+
+.login-container {
+  max-width: 100rem;
+  column-gap: 4.2rem;
+}
+
+.reg-instuctions {
+  margin: 2rem 0 15.2rem 1.4rem;
+  list-style: disc !important;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+
+
+
+.text-box-cta::placeholder {
+  color: #bbb;
+}
+.text-box-cta:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.8);
+}
