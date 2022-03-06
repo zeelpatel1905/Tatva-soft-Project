@@ -1,0 +1,49 @@
+.container-product {
+  max-width: 120rem;
+  column-gap: 2.4rem;
+  row-gap: 2.4rem;
+  margin-bottom: 4rem;
+}
+
+.save-btn {
+  margin-right: 1.2rem;
+  background-color: #80bf32 !important;
+}
+
+.save-btn:hover {
+  background-color: #639921 !important;
+}
+
+.drop-down-edit{
+    width: 80%;
+    height: 36.8px;
+    border: none;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    font-size: 1.6rem;
+    color: #999;
+}
+
+.drop-option{
+    background-color: #eee;
+    color: #333;
+}
+.file-button{
+margin: 0 !important;
+padding: 0 !important;
+border-radius: 0 !important;
+cursor: pointer;
+height: 36.8px;
+}
+.file-button::-webkit-file-upload-button{
+    border:none;
+    background: #f14d54 ;
+    color: #fff;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 500;
+    transform: scale(1);
+    cursor: pointer;
+    height: inherit;
+}
