@@ -1,62 +1,9 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
+{% block 'content' %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product listing</title>
-    <link rel="stylesheet" href="{% static 'css/UI.css' %}">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <link rel="stylesheet" href="{% static 'css/product-listing.css' %}">
-</head>
 
-<body>
-    <div>
-        <header class="header-main flex">
-            <a href="" class="link-logo">
-                <img src="{% static 'img/tatvasoft.png' %}" alt="logo of tatvagan website which about learning web-languages"
-                    class="logo">
-            </a>
-            <nav class="nav-main">
-                <ul class="nav-top flex">
-                    <li class="nav-iteam"><a class="link nav-link" href="">Login</a></li>
-                    <li class="line">|</li>
-                    <li class="nav-iteam"><a class="link nav-link" href="">Register</a></li>
-                    <button class="btn btn-cart">
-                        <div class="cart-text flex">
-                            <ion-icon name="cart" class="icon-cart"></ion-icon>
-                            <span class="cart-value">0</span>
-                            <span>Cart</span>
-                        </div>
-                    </button>
-                </ul>
-            </nav>
-        </header>
-        <section class="section-search flex">
-            <input type="text" name="" id="" class="input input-search" placeholder="What are you looking for...">
-            <button class="btn btn-search search flex">
-                <ion-icon name="search-outline" class="icon-search"></ion-icon><span>Search</span>
-            </button>
-            <button class="btn btn-search cancle"><span>Cancle</span></button>
-        </section>
-    </div>
-    <section class="product-listing">
-        <h2 class="web-h2">Product Listing</h2>
-        <div class="sort-product container">
-            <p class="no-items">Product Name - 14336 items</p>
-            <div class="sort-by">
-                <label class="label-web">Sort By</label>
-                <select id="select-where" required>
-                    <option>a-z</option>
-                    <option>1999</option>
-                    <option>1999</option>
-                    <option>1999</option>
-                </select>
-            </div>
-        </div>
-        <main>
+
+
+<main>
             <div class="product-cards container grid grid-5-col">
                 <!-- Col - 1 -->
                 <div class="product-card">
@@ -240,28 +187,7 @@
                 </div>
             </div>
         </main>
-        <div class="peginator flex">
-            <button href="" class="btn peginator-button arrow-link">
-                <ion-icon name="chevron-back-outline" class="paginator-arrow"></ion-icon>
-            </button>
-            <a href="" class="link peginator-link peginator-active">1</a>
-            <a href="" class="link peginator-link">2</a>
-            <a href="" class="link peginator-link">3</a>
-            <a href="" class="link peginator-link">4</a>
-            <a href="" class="link peginator-link">5</a>
-            <span class="peginator-skip">...</span>
-            <a href="" class="link peginator-link">10</a>
-            <button href="" class="btn peginator-button arrow-link">
-                <ion-icon name="chevron-forward-outline" class="paginator-arrow"></ion-icon>
-            </button>
-        </div>
-    </section>
-    <section class="footer flex">
-        <img src="{% static 'img/tatvasoft.png' %}" alt="logo of tatvagan website which about learning web-languages" class="logo logo-footer">
-        <span class="footer-text">&copy; Tatvasoft.com All rights reserved.</span>
-    </section>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
 
-</html>
+
+
+{% endblock %}
